@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    color: white;
+    background-color: #0074d9;
+    border-style: hidden;
+    border-radius: 20px;
+}
+button:hover{
+    
+    transition-duration: 0.3s; 
+    border: 2px solid #ff851b
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: white !important;
+}
+.logo{
+    height: auto;
+    width: 200px;
+}
+.elementoMenu{
+    position:relative;
+    width: 20%;
+    height: 20%;
+    border: solid 1px black;
+    margin: 5px;
+}
+#pieDePagina{
+    width: 100%;
+    height: 100px;
+    background-color: dimgrey;
+    color: white;
+}
+#pieDePagina h1{
+    font-size: 15px;
+    margin: 5px;
+}
+#pieDePagina h2{
+    font-size: 10px;
+    margin: 5px;
+}
+@media (min-width:360px){
+        
+
+}

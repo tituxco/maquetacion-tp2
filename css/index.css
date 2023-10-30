@@ -1,0 +1,208 @@
+
+.presentacion{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorImagen{    
+    width: 100%;    
+    overflow: hidden;
+}
+
+.presentacion img{
+    width: 100%;
+    opacity: 50%;    
+}
+.presentacion h1{
+    position: absolute;
+    top: 10px;
+    color:white;
+    text-shadow:3px 3px 4px black;
+    text-align: center;
+}
+.presentacion h4{
+    position: absolute;    
+    text-align: center;
+    top: 100px;
+    margin: 10px;
+    color: white;
+    text-shadow:3px 3px 4px black;
+}
+.presentacion button{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    bottom:10px;
+}
+.serviciosBasicos{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.serviciosBasicos button{       
+    width: 200px;
+    height: 40px;        
+}
+.tituloSecciones{    
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    width: 80%;
+    border:3px  solid #ff851b;
+    border-style: solid solid solid none;
+    border-radius: 0 20vw 20vw 0;
+}
+.tituloSecciones h4{
+    font-size: 24px;
+    color: #0074d9;
+}
+
+.servicioBasico{
+    padding: 10px;
+    width: 100%;
+}
+.servicioBasico h4{
+    color: #0074d9;
+    margin: 5px;
+}
+.servicioBasico p{
+    margin: 5px;
+}
+
+.testimoniales{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #edf0f2;
+}
+.testimonio{
+    padding: 10px;
+    width: 100%;
+}
+.testimonio h4{
+    color: #0074d9;
+    margin: 5px;
+}
+.testimonio p{
+    margin: 5px;
+}
+
+/*la base de desarrollo es celular de 360px*/
+
+@media(min-width:450px){
+    .presentacion h1{
+        font-size: 35px;
+    }
+    .presentacion h4{
+        font-size: 20px;
+        top: 80px;
+    }
+    .contenedorImagen{        
+        height: 250px;
+    }
+    .contenedorImagen img{
+        margin-top: -80px ;
+    }
+    .presentacion button{
+        bottom: 30px;    
+    }
+}
+@media (min-width:600px) {
+
+    .presentacion h1{
+        font-size: 35px;
+    }
+    .presentacion h4{
+        top:90px;
+        font-size: 25px;
+    }
+    .contenedorImagen{        
+        height: 250px;
+    }
+    .contenedorImagen img{
+        margin-top: -80px ;
+    }
+    .presentacion button{
+        bottom: 30px;    
+    }
+}
+@media(min-width:768px){
+    .serviciosBasicos{
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        padding-top: 0px;
+        align-content: flex-start;
+    }
+    .servicioBasico{
+        width: 33%;
+    }
+
+    .testimoniales{
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        padding-top: 0px;
+        align-content: flex-start;
+    }
+    .testimonio{
+        width: 33%;
+    }
+
+
+    .contenedorImagen{        
+        height: 250px;
+    }
+    .contenedorImagen img{
+        margin-top: -150px ;
+    }
+    .presentacion h4{
+        top:75px;
+        font-size: 25px;
+    }
+    .presentacion button{
+        bottom: 20px;    
+    }
+
+}
+@media (min-width:1024px) {
+    .contenedorImagen img{
+        margin-top: -300px ;
+    }    
+}
+@media(min-width:1200px){
+    .contenedorImagen img{
+        margin-top: -450px ;
+    }
+}
+
