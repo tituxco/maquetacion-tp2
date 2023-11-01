@@ -1,0 +1,80 @@
+
+.viasContacto{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.formContacto{
+    width: 350px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.formContacto h4{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.formContacto p {
+    width: 100%;
+    vertical-align:middle;
+}
+.formContacto label{
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+}
+.formContacto input,textarea{
+    background-color: #ddd;
+    vertical-align: top;
+    width: 60%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.formAcciones{        
+    text-align: center;    
+}
+.formAcciones button{
+    width: 100px;
+}
+.otrasViasContacto{
+    width: 350px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.otrasViasContacto h4{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.otrasViasContacto p{
+    height: auto !important;
+    margin: 0;
+}
+@media(min-width:768px){
+    .viasContacto{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}

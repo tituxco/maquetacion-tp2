@@ -37,7 +37,7 @@
     position: absolute;
     width: 140px;
     height: 40px;
-    bottom:10px;
+    bottom: 15px;;
 }
 .serviciosBasicos{
     display: flex;
