@@ -58,6 +58,9 @@ p{
     height: 100px;
     background-color: dimgrey;
     color: white;
+    border-bottom:20px solid #ff851b;
+     
+    
 }
 #pieDePagina h1{
     font-size: 15px;
