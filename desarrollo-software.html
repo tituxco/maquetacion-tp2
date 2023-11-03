@@ -1,52 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css"> 
-    <title>Desarrollo de software</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand"  href="#"><img class="logo" src="img/logo1.svg"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html"><i class="bi bi-house"></i> Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="servicio-tecnico.html"><i class="bi bi-motherboard"></i> Servicio técnico</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true" href="desarrollo-software.html"><i class="bi bi-braces"></i> Desarrollo de software</a>
-                  </li>              
-                  <li class="nav-item">
-                    <a class="nav-link" href="galeria.html"><i class="bi bi-images"></i> Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html"><i class="bi bi-envelope"></i> Contacto</a>
-                  </li>
-                </ul>            
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="img/logo1.svg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills nav-fill">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  ><i class="bi bi-house"></i> Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicio-tecnico.html"
+                  ><i class="bi bi-motherboard"></i> Servicio técnico</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="desarrollo-software.html"
+                  ><i class="bi bi-braces"></i> Desarrollo de software</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html"
+                  ><i class="bi bi-images"></i> Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html"
+                  ><i class="bi bi-envelope"></i> Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
+      <section class="presentacion">
+        <div class="contenedorImagen">
+          <img src="./img/desarrollo.jpg" />
+        </div>
+        <h1>Desarrollo de software</h1>
+        <h4>
+          Creamos soluciones personalizadas que se adaptan a tus necesidades
+          específicas
+        </h4>
 
+        <button><i class="bi bi-whatsapp"></i> Contactar</button>
+      </section>
+      <div class="tituloSecciones">
+        <h4>Nuestros desarrollos</h4>
+      </div>
+      <article class="nuestrosDesarrollos">
+        <p>
+          Nuestro servicio de Desarrollo de Software a Medida se destaca por la
+          capacidad de crear soluciones personalizadas que se ajustan
+          perfectamente a tus necesidades. No importa si buscas mejorar la
+          eficiencia en tu negocio, automatizar tareas, o crear una aplicación
+          única; estamos aquí para materializar tu visión.
+        </p>
+        <p>
+          Nos enfocamos en comprender tus requerimientos y objetivos. Luego,
+          trabajamos en estrecha colaboración contigo para diseñar y construir
+          una solución de software que se adapte a tus necesidades específicas.
+        </p>
+        <p>
+          La ventaja de contar con software a medida es que no te verás limitado
+          por soluciones genéricas. Puedes tener la funcionalidad exacta que
+          necesitas, lo que se traduce en procesos más eficientes y una ventaja
+          competitiva.
+        </p>
+        <p>
+          Si estás listo para optimizar tus operaciones, automatizar tareas o
+          lanzar una aplicación única, nuestro equipo de desarrollo de software 
+          está listo para convertir tu visión en realidad. ¡Confía en
+          nosotros para llevar tus ideas al siguiente nivel y maximizar tu
+          potencial!
+        </p>
+      </article>
+      
     </main>
     <footer>
       <div id="pieDePagina">
-         <h1>KIBIT Informática</h1>
-         <h2>San Martin 142 - Reconquista - Santa Fe</h2>
+        <h1>KIBIT Informática</h1>
+        <h2>San Martin 142 - Reconquista - Santa Fe</h2>
       </div>
-</footer>   
-</body>
+    </footer>
+  </body>
 </html>

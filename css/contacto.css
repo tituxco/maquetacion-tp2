@@ -33,18 +33,25 @@
     width: 30%;
     display: inline-block;
 }
-.formContacto input,textarea{
+.formContacto input,textarea,select{
     background-color: #ddd;
     vertical-align: top;
     width: 60%;
     display: inline-block;
     border-radius: 5px;
 }
-.formAcciones{        
-    text-align: center;    
+.formAcciones{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;    
+    justify-content: center;
+    width: 100%;
 }
 .formAcciones button{
     width: 100px;
+    height: 40px;
+    margin: 10px;
 }
 .otrasViasContacto{
     width: 350px;

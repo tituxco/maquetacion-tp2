@@ -52,10 +52,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  aria-disabled="true"
-                  href="desarrollo-software.html"
+                <a class="nav-link" href="desarrollo-software.html"
                   ><i class="bi bi-braces"></i> Desarrollo de software</a
                 >
               </li>
@@ -114,13 +111,24 @@
               <input type="email" placeholder="Ingrese su E-mail" />
             </p>
             <p>
-              <label for="consulta">Consulta</label>
-              <textarea placeholder="Ingrese una breve descripción de su consulta"></textarea>
+              <label for="tipoEquipo">Tipo de equipo</label>
+              <select>
+                <option>Notebook</option>
+                <option>Pc/All in One</option>
+                <option>Celular/Tablet</option>
+                <option>Otros</option>
+              </select>
             </p>
-            <p class="formAcciones">
+            <p>
+              <label for="consulta">Consulta</label>
+              <textarea
+                placeholder="Ingrese una breve descripción de su consulta"
+              ></textarea>
+            </p>
+            <div class="formAcciones">
               <button type="reset">Limpiar</button>
               <button type="submit">Enviar</button>
-            </p>
+            </div>
           </div>
         </form>
         <section class="otrasViasContacto">
@@ -129,15 +137,18 @@
           <p><i class="bi bi-envelope"></i> E-mail: info@kibit.com.ar</p>
           <p><i class="bi bi-facebook"></i> Facebook</p>
           <p><i class="bi bi-instagram"></i> Instagram</p>
-          <p><i class="bi bi-geo-alt"></i> Direccion: San martin 142 - Reconquista - Santa Fe</p>
+          <p>
+            <i class="bi bi-geo-alt"></i> Direccion: San martin 142 -
+            Reconquista - Santa Fe
+          </p>
         </section>
       </section>
     </main>
     <footer>
       <div id="pieDePagina">
-         <h1>KIBIT Informática</h1>
-         <h2>San Martin 142 - Reconquista - Santa Fe</h2>
+        <h1>KIBIT Informática</h1>
+        <h2>San Martin 142 - Reconquista - Santa Fe</h2>
       </div>
-</footer>
+    </footer>
   </body>
 </html>
